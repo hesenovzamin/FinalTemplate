@@ -1,3 +1,7 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -72,6 +76,10 @@ ul.header-right a:hover {
   margin-top: 2%;
 }
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+     border: none; 
+}
+
 .navbar-inverse .navbar-nav>li>a {
     margin-top: 15px;
     font-size: 16px;
@@ -79,6 +87,16 @@ ul.header-right a:hover {
     font-weight: 400;
     color: #606060;
     box-sizing: border-box;
+}
+
+.navbar-inverse .navbar-toggle {
+    border: none;
+    color: black;
+    background: none;
+}
+
+.navbar-inverse .navbar-toggle span {
+    color: black;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
@@ -104,15 +122,20 @@ ul.header-right a:hover {
     margin-left: -1%;
 }
 
-.navbar-right .btn.btn-fill a{
+#btnStyle a{
   text-decoration: none;
-  color: white;
+  color: #fff;
+  font-size: 16px;
 }
 
-.navbar-right .btn.btn-fill:hover{
-  color: #53b778;
+#btnStyle:hover{
+  
   background: #fff;
   transition: 0.4s ease;
+}
+
+#btnStyle a:hover{
+  color: #53b778;
 }
 
 
@@ -126,7 +149,7 @@ ul.header-right a:hover {
     vertical-align: middle;
     line-height: 18px;
     background: #53b778;
-    width: 162px;
+    /*width: 162px;*/
     height: 44px;
     border-radius: 0;
     padding: 12px 14px 12px 18px;
@@ -201,7 +224,7 @@ ul.header-right a:hover {
     font-weight: 600;
     line-height: 1.1;
     color: #fff;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 .banner .banner-txt p {
@@ -228,6 +251,7 @@ ul.header-right a:hover {
     color: #fff;
     transition: 0.4s ease;
 }
+
 #sectionAbout{
   padding-top: 4%;
 }
@@ -355,4 +379,151 @@ color: #53b778;
 #section2 .col-md-4{
     margin-top: -55px;
 }
+
+
+#footerSign {
+  padding-top: 4%;
+}
+
+.greyBg {
+    width: 100%;
+    height: 315px;
+    background: #323a45;
+}
+
+.greyBg h2{
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    color: #fff;
+}
+
+.container h2 {
+  margin-top: 4.5%;
+  margin-bottom: 4%;
+}
+
+.formControl {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  outline-style: none;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.btnSign button {
+    display: block;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 15px;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+    width: 360px;
+    height: 45px;
+    padding: 11px 20px;
+    background: #53b778;
+    border: 2px solid #53b778;
+    
+}
+
+.btnSign button:hover {
+    color: #53b778;
+    background: #323a45;
+    border-color: #53b778;
+    transition: 0.4s;
+}
+
+.greyBg .container p {
+  font-size: 16px;
+  margin-top: 3%;
+  text-align: center;
+  color: #9d9d9d;
+}
+
+.iRow{
+  position: relative;
+}
+
+.iRow i{
+position: absolute;
+top: 16px;
+left: 5px;
+}
+
+.myFluid{
+  height: 330px;
+  background-color:#eaeaea;
+  padding-top:80px;
+}
+
+.services{
+
+  color:#606060;  
+  list-style:none;
+  padding-left:0px;
+}
+
+.liItem{
+
+  font-size:15px;
+  color:#9d9d9d;
+  list-style: none;
+}
+
+.footerCol{
+  margin:0px;
+  padding:0px;
+}
+
+.footerCol a{
+  text-decoration: none;
+  color:#9d9d9d;
+}
+
+.footerCol a:hover{
+  color: #53b778;
+  transition: 0.3s ease;
+}
+
+.logo {
+    height: 32px;
+    width: 32px;
+    background: #c6cbd2;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: inset 0px 1px 0px 0px #b7bbc1;
+    line-height: 32px;
+    cursor: pointer;        
+}
+
+.logo i {
+  color: #fff;
+  font-size: 16px;
+}
+
+.logo:hover {
+  background:#53b778;
+  color: #fff; 
+  transition: 0.4s ease;
+}
+
+.container-fluid ul{
+  list-style: none;
+  line-height: 1 !important;
+}
+
 
